@@ -8,7 +8,7 @@ PRODUCT_RELEASE_NAME := rk2928sdk
 #$(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/rockchip/rk2928sdk/device_rk2928sdk.mk)
+$(call inherit-product, device/rockchip/rk2928sdk/device.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := rk2928sdk

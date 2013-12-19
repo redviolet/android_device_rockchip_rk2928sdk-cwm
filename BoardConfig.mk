@@ -1,7 +1,7 @@
 USE_CAMERA_STUB := true
 
 # inherit from the proprietary version
--include vendor/rockchip/rk2928sdk/BoardConfigVendor.mk
+#-include vendor/rockchip/rk2928sdk/BoardConfigVendor.mk
 
 TARGET_ARCH := arm
 TARGET_NO_BOOTLOADER := true
