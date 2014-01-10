@@ -28,4 +28,8 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 
 TARGET_PREBUILT_KERNEL := device/rockchip/rk2928sdk/kernel
 
+## Recovery
+RECOVERY_FSTAB_VERSION = 2
+TARGET_RECOVERY_FSTAB = device/rockchip/rk2928sdk/recovery.fstab
 BOARD_HAS_NO_SELECT_BUTTON := true
+BOARD_RECOVERY_SWIPE := true
